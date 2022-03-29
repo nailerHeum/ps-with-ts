@@ -1,0 +1,14 @@
+{
+  "name": "ps-with-ts",
+  "version": "1.0.0",
+  "description": "Problem Solving with Typescript",
+  "main": "solution.js",
+  "scripts": {
+    "test": "tsc && node solution.js"
+  },
+  "keywords": [
+    "PS"
+  ],
+  "author": "Seongheum.Choi",
+  "license": "ISC"
+}
