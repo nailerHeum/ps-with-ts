@@ -4,11 +4,36 @@
   "description": "Problem Solving with Typescript",
   "main": "solution.js",
   "scripts": {
-    "test": "tsc && node solution.js"
+    "test": "jest"
   },
   "keywords": [
     "PS"
   ],
   "author": "Seongheum.Choi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "jest": {
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "solution.test\\.ts$",
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "json"
+    ],
+    "globals": {
+        "ts-jest": {
+            "diagnostics": true
+        }
+    }
+  }
 }
